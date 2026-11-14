@@ -23,7 +23,7 @@ from . import _result
 # gpt-image-1 for everything (gpt-image-1-mini acceptable for cheap drafts via
 # the env overrides below). gpt-image-2 also REJECTS background=transparent
 # (400) and proved flaky on sprite work, so this is consistency AND policy.
-DEFAULT_OPAQUE_MODEL = "gpt-image-1"
+DEFAULT_OPAQUE_MODEL = "gpt-image-2.5-sunburst"
 DEFAULT_TRANSPARENT_MODEL = "gpt-image-1"
 SIZES = ("1024x1024", "1536x1024", "1024x1536", "auto")
 QUALITIES = ("low", "medium", "high", "auto")
